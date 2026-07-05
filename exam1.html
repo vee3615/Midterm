@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">My Portfolio</div>
+        <nav>
+            <ul class="nav-links">
+                <!-- Added Home Navigation Link -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Added Home Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Discover my work, skills, and journey as a developer.</p>
+                <a href="#projects" class="cta-btn">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="profile-card">
+            <h2>About Me</h2>
+            <img src="1000063179.jpg" alt="Ronnie Manallo Profile Picture" class="profile-img">
+            <p>Hi! Welcome to my website. You can call me Ron. I'm a working student and I currently take 
+                up a Bachelor of Science in Information Technology Major in Mobile and Website Development
+                in Trimex Colleges located at Biñan Laguna, Philippines.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                
+                <article class="project-card"> 
+                    <img src="dev3.png" alt=" IT Services Agency Website Layout"> 
+                    <h3>IT Serv Landing Page</h3> 
+                    <p>A corporate IT business interface featuring service categories, 
+                        customer support management, and data analytics modules.</p>
+                    <a href="dev3.png" target="_blank" class="view-btn">View Project</a>    
+                </article> 
+
+                <article class="project-card"> 
+                    <img src="dev2.png" alt="Resume Layout"> 
+                    <h3>Applicant Resume</h3> 
+                    <p>A clean, structured UX/UI designer resume emphasizing visual hierarchy,
+                         technical skill matrices, and core soft skills.</p>
+                    <a href="dev2.png" target="_blank" class="view-btn">View Project</a>     
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST" class="contact-form">
+                
+                <div class="form-group">
+                    <label for="username">Full Name:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="useremail">Email Address:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="usermessage">Message:</label>
+                    <textarea id="usermessage" name="usermessage" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Ronnie Manallo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
